@@ -1,3 +1,6 @@
 en:
   theme_metadata:
-    description: "A component that ensures audio files are uploaded in certain categories in order to submit posts"
+    description: 'A component that ensures audio files are uploaded in certain categories in order to submit posts'
+  composer:
+    error:
+      audio_required: 'An audio file is required'

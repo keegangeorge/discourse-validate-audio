@@ -1,0 +1,11 @@
+categories:
+  type: list
+  list_type: category
+  default: ''
+  description:
+    en: List of categories where audio uploads are required.
+allowed_audio_files:
+  type: list
+  default: 'mp3|og[ga]|opus|wav|m4[abpr]|aac|flac'
+  description:
+    en: List of allowed audio file extensions.
