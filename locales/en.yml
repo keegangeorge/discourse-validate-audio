@@ -1,0 +1,3 @@
+en:
+  theme_metadata:
+    description: "A component that ensures audio files are uploaded in certain categories in order to submit posts"
