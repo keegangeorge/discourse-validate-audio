@@ -11,6 +11,11 @@ export default apiInitializer('0.11.1', (api) => {
     audioValidation(model, lastValidatedAt, category) {
       const categoriesToValidate = settings.categories.split('|');
       const allowedAudioFiles = settings.allowed_audio_files.split('|');
+
+      if (category == null || undefined) {
+        return;
+      }
+
       const categoryId = category.toString();
 
       if (categoriesToValidate.includes(categoryId)) {
